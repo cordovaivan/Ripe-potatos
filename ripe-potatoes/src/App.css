@@ -16,6 +16,8 @@ body {
 
 .row {
 	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .image-container:hover {
