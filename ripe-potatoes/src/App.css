@@ -11,6 +11,11 @@ body {
 .image-container {
 	position: relative;
 	transition: transform 0.2s;
+	padding-left: 40%;
+}
+
+.row {
+	flex-direction: column;
 }
 
 .image-container:hover {
@@ -33,3 +38,5 @@ body {
 	padding: 20px;
 	text-align: center;
 }
+
+
