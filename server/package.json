@@ -3,10 +3,9 @@
     "version": "1.0.0",
     "description": "",
     "main": "server.js",
-    "npm" : "server.js",
     "scripts": {
       "start": "node server.js",
-      "watch": "nodemon",
+      "watch": "node server.js",
       "seed": "node seeders/seed.js"
     },
     "keywords": [],
