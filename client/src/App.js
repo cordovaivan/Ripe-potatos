@@ -62,7 +62,9 @@ const App = () => {
 			<div className='row d-flex align-items-center mt-4 mb-4'>
 				<MovieListHeading heading='Movies' />
 				<SearchBox searchValue={searchValue} setSearchValue={setSearchValue} />
-				<button type='button' class="btn btn-danger">Login</button>
+			</div>
+			<div className='row d-flex align-items-center mt-4 mb-4'>
+			    <button type='button' class="btn btn-danger">Login</button>
 				<button type='button' class="btn btn-info">Signup</button>
 			</div>
 			<div className='row'>
