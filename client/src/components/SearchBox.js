@@ -1,6 +1,4 @@
 import React from 'react';
-import SignUpForm from './SignupForm';
-import LoginForm from './LoginForm';
 
 const SearchBox = (props) => {
 	return (
@@ -12,6 +10,7 @@ const SearchBox = (props) => {
 				placeholder='Search for a Movie!'
 			></input>
 		</div>
+		
 	);
 };
 
