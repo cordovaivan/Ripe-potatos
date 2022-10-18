@@ -6,6 +6,7 @@ import MovieListHeading from './components/MovieListHeading';
 import SearchBox from './components/SearchBox';
 import AddFavourites from './components/AddFavourites';
 import RemoveFavourites from './components/RemoveFavourites';
+import Comments from "./components/Comments";
 
 
 const App = () => {
@@ -64,7 +65,7 @@ const App = () => {
 				<SearchBox searchValue={searchValue} setSearchValue={setSearchValue} />
 			</div>
 			<div className='row d-flex align-items-center mt-4 mb-4'>
-			    <button type='button' class="btn btn-danger">Login</button>
+				<button type='button' class="btn btn-danger">Login</button>
 				<button type='button' class="btn btn-info">Signup</button>
 			</div>
 			<div className='row'>
@@ -82,6 +83,13 @@ const App = () => {
 					movies={favourites}
 					handleFavouritesClick={removeFavouriteMovie}
 					favouriteComponent={RemoveFavourites}
+				/>
+			</div>
+			<div>
+				<h1>Hello add a comment!</h1>
+				<Comments
+					commentsUrl="http://localhost:3004/comments"
+					currentUserId="1"
 				/>
 			</div>
 		</div>
